@@ -7,10 +7,10 @@
 ### Одной командой:
 ```bash
 # Через curl
-bash <(curl -fsSL https://raw.githubusercontent.com/xfce0/vim/main/web-install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/ВАШ_ЮЗЕРНЕЙМ/vim/main/web-install.sh)
 
 # Или через wget
-bash <(wget -qO- https://raw.githubusercontent.com/xfce0/vim/main/web-install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/ВАШ_ЮЗЕРНЕЙМ/vim/main/web-install.sh)
 ```
 
 ### Через клонирование:
@@ -46,7 +46,7 @@ cd ~/vim-config
 | **Ctrl+X** | Вырезать выделенное |
 | **Ctrl+Z** | Отменить действие |
 | **Ctrl+Y** | Повторить действие |
-| **F2** | Открыть файловый браузер |
+| **Ctrl+O** | Открыть файловый браузер |
 | **F3** | Режим вставки (для копирования из терминала) |
 | **Delete** | Удалить выделенное |
 

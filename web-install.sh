@@ -92,6 +92,7 @@ set termencoding=utf-8
 " Нумерация строк
 set number                    " Показывать номера строк
 set norelativenumber         " Отключить относительную нумерацию
+
 " Работа с мышью
 set mouse=a                   " Включить поддержку мыши во всех режимах
 set ttymouse=sgr              " Поддержка мыши в больших терминалах
@@ -147,6 +148,7 @@ endif
 
 " Визуальные подсказки
 set cursorline                " Подсветка текущей строки
+" set colorcolumn=80          " Вертикальная линия на 80 символе (отключено)
 set wrap                      " Перенос длинных строк
 set linebreak                 " Перенос по словам
 
@@ -234,8 +236,8 @@ let g:netrw_liststyle = 3    " Древовидное отображение
 let g:netrw_browse_split = 4 " Открывать в предыдущем окне
 let g:netrw_winsize = 20      " Размер окна браузера
 
-" F2 для переключения файлового браузера
-nnoremap <F2> :Lexplore<CR>
+" Ctrl+O для переключения файлового браузера
+nnoremap <C-o> :Lexplore<CR>
 
 " F3 для переключения режима вставки/замены
 set pastetoggle=<F3>
@@ -294,7 +296,7 @@ print_message "    ✨ Установка завершена! ✨" "$GREEN"
 print_message "=====================================" "$GREEN"
 echo
 echo -e "${CYAN}Горячие клавиши:${NC}"
-echo "  • F2         - Файловый браузер"
+echo "  • Ctrl+O     - Файловый браузер"
 echo "  • Ctrl+S     - Сохранить"
 echo "  • Ctrl+Q     - Выйти"
 echo "  • Ctrl+C/V/X - Копировать/Вставить/Вырезать"
