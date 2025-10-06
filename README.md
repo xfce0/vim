@@ -4,6 +4,16 @@
 
 ## 🚀 Быстрая установка
 
+### Одной командой:
+```bash
+# Через curl
+bash <(curl -fsSL https://raw.githubusercontent.com/ВАШ_ЮЗЕРНЕЙМ/vim/main/web-install.sh)
+
+# Или через wget
+bash <(wget -qO- https://raw.githubusercontent.com/ВАШ_ЮЗЕРНЕЙМ/vim/main/web-install.sh)
+```
+
+### Через клонирование:
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/ВАШ_ЮЗЕРНЕЙМ/vim.git ~/vim-config
