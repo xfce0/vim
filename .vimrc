@@ -154,8 +154,8 @@ let g:netrw_liststyle = 3    " Древовидное отображение
 let g:netrw_browse_split = 4 " Открывать в предыдущем окне
 let g:netrw_winsize = 20      " Размер окна браузера
 
-" F2 для переключения файлового браузера
-nnoremap <F2> :Lexplore<CR>
+" Ctrl+O для переключения файлового браузера
+nnoremap <C-o> :Lexplore<CR>
 
 " F3 для переключения режима вставки/замены
 set pastetoggle=<F3>
